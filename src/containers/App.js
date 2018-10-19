@@ -44,11 +44,11 @@ class App extends Component {
 
 		return !robots.length ?
 
-			<h1>Loading...</h1> :
+			<h1>Cargando...</h1> :
 
 				<div className="tc">
 
-					<h1 className='f1'> RoboFriends </h1>
+					<h1 className='f1'> Buscador dinamico hecho con React </h1>
 
 					<Searchbox searchChange={this.onSearchChange}/>
 
